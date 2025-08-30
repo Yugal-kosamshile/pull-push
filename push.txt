@@ -1,7 +1,9 @@
-$ git init
-$ git status
-$ git add .
-$ git commit -m "message"
-$ git branch -M main
-$ git remote add origin  git@github.com:Yugal-kosamshile/yugalk.git <sst link >
-$ git push -u origin main 
+$ git init //used to initialize the folder as git folder
+$ git status //used to check the status 
+$ git add . //used to add the files in directory in the staging phase
+$ git rm --cached -r . // used to undo the add . or we can say, 
+we are removing all the added files from the staging phase
+$ git commit -m "message" // comminting the changes  in the local repository
+$ git branch -M main // working with the main branch
+$ git remote add origin  git@github.com:Yugal-kosamshile/yugalk.git <sst link > // adding to the remote repository
+$ git push -u origin main // pushing to the remote repository in the main branch
