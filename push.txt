@@ -3,7 +3,16 @@ $ git status //used to check the status
 $ git add . //used to add the files in directory in the staging phase
 $ git rm --cached -r . // used to undo the add . or we can say, 
 we are removing all the added files from the staging phase
-$ git commit -m "message" // comminting the changes  in the local repository
+$ git commit -m "message" // commiting the changes  in the local repository
+
 $ git branch -M main // working with the main branch
+OR 
+
+$ git branch <new_branch_name> // we can work with other branch
+$ git branch // to see the branches 
+$ git checkout <new_branch_name> // switch to the other branch
+$ git checkout main // switched to main branch
+
+
 $ git remote add origin  git@github.com:Yugal-kosamshile/yugalk.git <sst link > // adding to the remote repository
 $ git push -u origin main // pushing to the remote repository in the main branch
