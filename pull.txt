@@ -1,3 +1,3 @@
 $ git clone  git@github.com:Yugal-kosamshile/yugalk.git
-$ git clone <git repository link>
+$ git clone <git repository link url>
 $ git pull origin main
