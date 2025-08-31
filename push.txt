@@ -15,3 +15,14 @@ $ git checkout main // switched to main branch
 
 $ git remote add origin  git@github.com:Yugal-kosamshile/yugalk.git <sst link > // adding to the remote repository
 $ git push -u origin main // pushing to the remote repository in the main branch
+
+
+//after completed with the other branche
+// to merge with the main branch follow :
+$ git checkout main // go to the main branch
+$ git merge <new_branch_name>
+//after this will open "Vim" editor
+//type ":q!"
+//the branches are merged but the new branch still be there
+
+$ git push -u origin main //push to the remote repository
