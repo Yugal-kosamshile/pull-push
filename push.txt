@@ -5,3 +5,21 @@ $ git commit -m "message"
 $ git branch -M main
 $ git remote add origin  git@github.com:Yugal-kosamshile/yugalk.git <sst link >
 $ git push -u origin main 
+
+git init
+git add .
+git commit -m "Initial commit - ready for GitHub Pages"
+
+git config  user.email "yugalkosamshile2002@gmail.com"
+  git config  user.name "Yugal-kosamshile"
+  
+ #Set remote repository
+Since you already have a repo URL:
+
+git remote add origin https://github.com/Yugal-kosamshile/Simple_webpages.git
+
+git remote set-url origin https://github.com/Yugal-kosamshile/Simple_webpages.git
+
+git branch -M main
+git push -u origin main
+git remote -v
