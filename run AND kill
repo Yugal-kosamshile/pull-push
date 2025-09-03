@@ -1,0 +1,18 @@
+#run Spring boot
+
+chmod +x SpringToolSuite4
+./SpringToolSuite4
+
+
+Check port=8080 is busy:
+sudo lsof -i :<port>
+
+output: 
+COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+java     1234 user   45u  IPv6  12345      0t0  TCP *:8080 (LISTEN)
+
+kill the execution if port is busy:
+sudo kill -9 1234
+
+run lombok:
+run java -jar lombok.jar
